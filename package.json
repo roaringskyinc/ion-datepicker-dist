@@ -1,0 +1,30 @@
+{
+  "name": "ion-datepicker",
+  "version": "2.6.7",
+  "description": "A date picker for ionic",
+  "main": "index.js",
+  "author": "Misha Tarnorutksy <misha130@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/misha130/ion-datepicker"
+  },
+  "keywords": [
+    "datepicker-ionic3",
+    "ionic3",
+    "ionic2",
+    "ionic3 datepicker",
+    "datepicker",
+    "datepicker ionic3",
+    "datepicker for ionic3",
+    "datepicker for ionic3 framework"
+  ],
+  "scripts": {
+    "ngc": "ngc",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -u",
+    "build": "npm run ngc && node ./scripts/copy-package",
+    "publishPackage": "npm run build && cd dist && npm publish",
+    "dev": "tsc --watch"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
