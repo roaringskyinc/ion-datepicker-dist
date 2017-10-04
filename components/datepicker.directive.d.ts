@@ -16,6 +16,7 @@ export declare class DatePickerDirective {
         weekdays: string[];
         months: string[];
     };
+    color: string;
     okText: string;
     cancelText: string;
     bodyClasses: Array<string>;
